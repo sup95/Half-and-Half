@@ -1,0 +1,32 @@
+body    {
+    background-color: #ffeead;
+}
+
+.left:hover,
+.right:hover{
+    width: 60%;
+}
+
+.left:hover ~ #right {
+    width: 40%;
+}
+
+.left {
+  background-color: #ff6f69;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 50%;
+  transition: width 1s;
+}
+
+.right {
+  background-color: #ffeead;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  width: 50%;
+  transition: width 1s;
+}
